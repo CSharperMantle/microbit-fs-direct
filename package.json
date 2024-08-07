@@ -1,6 +1,6 @@
 {
-  "name": "@microbit/microbit-fs",
-  "version": "0.9.2",
+  "name": "@csharpermantle/microbit-fs-direct",
+  "version": "0.9.2-p.1",
   "description": "Manipulate files in a micro:bit MicroPython Intel Hex file.",
   "keywords": [
     "microbit",
@@ -15,12 +15,19 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/microbit-foundation/microbit-fs"
+    "url": "https://github.com/CSharperMantle/microbit-fs-direct.git"
   },
   "config": {
     "umdName": "microbitFs"
   },
   "author": "Micro:bit Educational Foundation <package-help@microbit.org>",
+  "contributors": [
+    {
+      "name": "Rong \"Mantle\" Bao",
+      "email": "baorong2005@126.com",
+      "url": "https://github.com/CSharperMantle/"
+    }
+  ],
   "license": "MIT",
   "engines": {
     "node": ">=8.5",
